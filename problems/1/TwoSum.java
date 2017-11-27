@@ -1,10 +1,3 @@
-/**
- * @(#)TwoSum.java, Nov 09, 2017.
- * <p/>
- * Copyright 2017 fenbi.com. All rights reserved.
- * FENBI.COM PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
-
 import java.util.HashMap;
 import java.util.Map;
 
