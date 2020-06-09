@@ -11,8 +11,8 @@
 
 | id | title | 题名 | solution | difficulty |
 | -- | ----- | ---- | -------- | ---------- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [c++](./problems/1/TwoSum.cc), [go](./problems/1/TwoSum.go), [java](./problems/1/TwoSum.java), [js](./problems/43/TwoSum.js), [scala](./problems/1/TwoSum.scala) | Easy |
-| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [go](./problems/1/TwoSum.go) | Easy |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [c++](./problems/1/TwoSum.cc), [go](./problems/1/TwoSum.go), [java](./problems/1/TwoSum.java), [js](./problems/1/TwoSum.js), [scala](./problems/1/TwoSum.scala) | Easy |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [go](./problems/43/MultiplyStrings.go) | Medium |
 | 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/) | [java](./problems/720/LongestWordInDictionary.java) | Easy |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [自除数](https://leetcode-cn.com/problems/self-dividing-numbers/) | [go](./problems/728/SelfDividingNumbers.go) | Easy |
 | 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | [我的日程安排表 I](https://leetcode-cn.com/problems/my-calendar-i/) | [java](./problems/729/MyCalendar.java), [js](./problems/729/MyCalendar.js) | Medium |
