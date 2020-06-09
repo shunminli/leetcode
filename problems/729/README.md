@@ -1,4 +1,4 @@
-# [my-calendar-i](https://leetcode.com/problems/my-calendar-i)
+# [My Calendar I](https://leetcode.com/problems/my-calendar-i)
 
 ## 题解
 区间覆盖最容易想到的就是线段树和树状数组
