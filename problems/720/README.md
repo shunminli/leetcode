@@ -1,5 +1,6 @@
 # [longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary) [词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary)
 
 ## 题解
-* store all string prefixes in a trie-tree
-* 
+* store all string in a trie-tree, then mark the end-point of string in trie-tree
+* search the longest path (lexicographical order) which each point is marked
+* rebuild the string by trie-tree
