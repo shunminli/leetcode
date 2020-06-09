@@ -1,4 +1,4 @@
-# [leetcode](https://leetcode.com)
+# LeetCode Solutions
 
 ## Contests
 
