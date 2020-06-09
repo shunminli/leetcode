@@ -1,8 +1,8 @@
 # LeetCode Solutions
 
-<font color='SpringGreen'>Easy</font>
-<font color='Orange'>Medium</font>
-<font color='Red'>Hard</font>
+<div class="text-green mb-2">Easy</div>
+<div class="text-orange mb-2">Medium</div>
+<div class="text-red mb-2">Hard</div>
 
 ## Contests
 
