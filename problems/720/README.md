@@ -2,5 +2,5 @@
 
 ## 题解
 * store all string in a trie-tree, then mark the end-point of string in trie-tree
-* search the longest path (lexicographical order) which each point is marked
+* search the longest path (lexicographical order) which all nodes is marked
 * rebuild the string by trie-tree
