@@ -1,7 +1,7 @@
-# [my-calendar-ii](https://leetcode.com/problems/my-calendar-ii)
+# [My Calendar II](https://leetcode.com/problems/my-calendar-ii)
 
 ## 题解
-跟[my-calendar-i](https://leetcode.com/problems/my-calendar-i)一样的操作
+跟[My Calendar I](https://leetcode.com/problems/my-calendar-i)一样的操作
 
 区别是需要找出所有与start end相交的线段
 
