@@ -1,7 +1,8 @@
 # [My Calendar II](https://leetcode.com/problems/my-calendar-ii) [我的日程安排表 II](https://leetcode-cn.com/problems/my-calendar-ii/)
 
 ## Solution
-跟[My Calendar I](https://leetcode.com/problems/my-calendar-i)一样的操作
+* It's similar to [My Calendar I](../problems/729)
+*
 
 区别是需要找出所有与start end相交的线段
 
