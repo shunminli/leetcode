@@ -2,6 +2,5 @@
 
 ## [Self Dividing Numbers](../../problems/728)
 ## [My Calendar I](../../problems/729)
-## [My Calendar I](../../problems/730)
+## [Count Different Palindromic Subsequences](../../problems/730)
 ## [My Calendar II](../../problems/731)
-## [My Calendar II](../../problems/732)
