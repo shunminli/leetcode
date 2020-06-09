@@ -6,13 +6,13 @@
 * For each f\[i]\[j] we can find all f\[next\[i]\[c] + 1]\[pre\[j]\[c] - 1] (c in \['a', 'b', 'c', 'd']) to to count the total numbe
 * If next\[i]\[c] == pre\[j]\[c] then there's only one possibility(single c)
 * If next\[i]\[c] < pre\[j]\[c] then there have f\[next\[i]\[c] + 1]\[pre\[j]\[c] - 1] + 2 possiblilities
- ** Add pair of c ====> cxxx......xxxc
- ** Pair of c ====> cc
- ** Single c ====> c
- ** Why there is no xxx......xxx? Because it can be transferred by other states, it can avoid double counting
+  * Add pair of c ====> cxxx......xxxc
+  * Pair of c ====> cc
+  * Single c ====> c
+  * Why there is no xxx......xxx? Because it can be transferred by other states, it can avoid double counting
 * For example: abaaaba，f(x) represents all palindromic subsequences in x
- ** f(abaaaba) ====> a + f(baaab) + a, aa, a, b + f（aaa) + b, bb, b ====> abaaaba, abaab, ababa, abba, aba, aa, a, baaab, baab, bab, bb, b
- ** When letter c == 'b' we will count f(baaab) = \[b + f(aaa) + b, bb, b], so it can not count by f(abaaaba) again
- ** f(baaab) ====> b + f(aaa) + b, bb, b ====> baaab, baab, bab, bb, b
- ** f(aaa) ===> a + f(a) + a, aa, a ===> aaa + aa + a
- ** f(a) ===> a
+  * f(abaaaba) ====> a + f(baaab) + a, aa, a, b + f（aaa) + b, bb, b ====> abaaaba, abaab, ababa, abba, aba, aa, a, baaab, baab, bab, bb, b
+  * When letter c == 'b' we will count f(baaab) = \[b + f(aaa) + b, bb, b], so it can not count by f(abaaaba) again
+  * f(baaab) ====> b + f(aaa) + b, bb, b ====> baaab, baab, bab, bb, b
+  * f(aaa) ===> a + f(a) + a, aa, a ===> aaa + aa + a
+  * f(a) ===> a
