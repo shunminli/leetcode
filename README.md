@@ -12,3 +12,4 @@
 | title | solution | difficulty |
 | ----- | -------- | ---------- |
 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [c++](./problems/1/TwoSum.cc), [go](./problems/1/TwoSum.go), [java](./problems/1/TwoSum.java), [js](./problems/1/TwoSum.js), [scala](./problems/1/TwoSum.scala) | Easy |
+| [720. Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [java](./problems/720/LongestWordInDictionary.java) | Easy |
