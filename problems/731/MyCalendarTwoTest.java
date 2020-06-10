@@ -12,7 +12,6 @@ import org.junit.Test;
 /**
  * @author Lillard
  */
-
 public class MyCalendarTwoTest {
 
   @Test
