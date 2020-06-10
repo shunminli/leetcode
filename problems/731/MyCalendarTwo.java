@@ -1,67 +1,113 @@
-import javafx.util.Pair;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
 /**
  * @author Lillard
  */
 class MyCalendarTwo {
 
-    private List<Pair<Integer, Integer>> bookedList;
+  private static final int MAX_VALUE = 1000000000;
 
-    public MyCalendarTwo() {
-        bookedList = new ArrayList<>();
+  private class TreeNode {
+
+    private int startInclusive;
+    private int mid;
+    private int endExclusive;
+    private int maxValue; // max value from [startInclusive, endExclusive)
+    private int lazyDelta; // lazy update
+
+    private TreeNode left;
+    private TreeNode right;
+
+    TreeNode(int startInclusive, int endExclusive, int maxValue) {
+      this.startInclusive = startInclusive;
+      this.endExclusive = endExclusive;
+      this.mid = (startInclusive + endExclusive) / 2;
+      this.maxValue = maxValue;
+      this.lazyDelta = 0;
+      this.left = null;
+      this.right = null;
     }
 
-    public boolean book(int start, int end) {
-        List<Pair<Integer, Integer>> intersections = new ArrayList<>();
-        for (Pair<Integer, Integer> pair : bookedList) {
-            if (pair.getKey() < start && start < pair.getValue()) {
-                intersections.add(pair);
-            } else if (start <= pair.getKey() && pair.getKey() < end) {
-                intersections.add(pair);
-            }
-        }
+    private int findMax(int startInclusive, int endExclusive) {
+      if (startInclusive >= endExclusive) {
+        return 0;
+      }
 
-        if (!check(intersections)) {
-            return false;
-        }
+      if (this.startInclusive == startInclusive && this.endExclusive == endExclusive) {
+        return this.maxValue + this.lazyDelta;
+      }
 
-        bookedList.add(new Pair<>(start, end));
-        return true;
+      int max = 0;
+      if (startInclusive < this.mid) {
+        int leftMax = this.getLeft().findMax(startInclusive, Math.min(this.mid, endExclusive));
+        max = Math.max(max, leftMax);
+      }
+      if (endExclusive > this.mid) {
+        int rightMax = this.getRight().findMax(Math.max(this.mid, startInclusive), endExclusive);
+        max = Math.max(max, rightMax);
+      }
+
+      return max + this.lazyDelta;
     }
 
-    private boolean check(List<Pair<Integer, Integer>> intersections) {
-        TreeMap<Integer, Integer> bookedMap = new TreeMap<>();
-        for (Pair<Integer, Integer> pair : intersections) {
-            int start = pair.getKey();
-            int end = pair.getValue();
-            Map.Entry<Integer, Integer> leftRange = bookedMap.lowerEntry(start);
-            if (leftRange != null && leftRange.getValue() > start) {
-                return false;
-            }
+    private void insert(int startInclusive, int endExclusive) {
+      if (startInclusive >= endExclusive) {
+        return;
+      }
 
-            Integer rightIndex = bookedMap.higherKey(start - 1);
-            if (rightIndex != null && rightIndex < end) {
-                return false;
-            }
+      if (this.startInclusive == startInclusive && this.endExclusive == endExclusive) {
+        this.lazyDelta++;
+        return;
+      }
 
-            bookedMap.put(start, end);
-        }
+      // sink lazy delta
+      this.sink();
 
-        return true;
+      if (startInclusive < this.mid) {
+        this.getLeft().insert(startInclusive, Math.min(this.mid, endExclusive));
+      }
+      if (endExclusive > this.mid) {
+        this.getRight().insert(Math.max(this.mid, startInclusive), endExclusive);
+      }
+
+      this.maxValue = Math.max(this.getLeft().maxValue + this.getLeft().lazyDelta,
+          this.getRight().maxValue + this.getRight().lazyDelta);
     }
 
-    public static void main(String[] args) {
-        MyCalendarTwo myCalendar = new MyCalendarTwo();
-        System.out.println(myCalendar.book(10, 20)); // returns true
-        System.out.println(myCalendar.book(50, 60)); // returns true
-        System.out.println(myCalendar.book(10, 40)); // returns true
-        System.out.println(myCalendar.book(5, 15)); // returns false
-        System.out.println(myCalendar.book(5, 10)); // returns true
-        System.out.println(myCalendar.book(25, 55)); // returns true
+    private void sink() {
+      this.getLeft().lazyDelta += this.lazyDelta;
+      this.getRight().lazyDelta += this.lazyDelta;
+
+      this.lazyDelta = 0;
     }
+
+    private TreeNode getLeft() {
+      if (this.left == null) {
+        this.left = new TreeNode(this.startInclusive, this.mid, this.maxValue);
+      }
+
+      return this.left;
+    }
+
+    private TreeNode getRight() {
+      if (this.right == null) {
+        this.right = new TreeNode(this.mid, this.endExclusive, this.maxValue);
+      }
+
+      return this.right;
+    }
+  }
+
+  private TreeNode root;
+
+  public MyCalendarTwo() {
+    this.root = new TreeNode(0, MAX_VALUE, 0);
+  }
+
+  public boolean book(int startInclusive, int endExclusive) {
+    if (root.findMax(startInclusive, endExclusive) < 2) {
+      root.insert(startInclusive, endExclusive);
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
