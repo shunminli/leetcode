@@ -9,7 +9,7 @@
 
 ## Problems
 
-| id | title | 题名 | solution | difficulty |
+| solution | title | 题名 | code | difficulty |
 | -- | ----- | ---- | -------- | ---------- |
 | [1](./problems/1) | [Two Sum](https://leetcode.com/problems/two-sum/) | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [c++](./problems/1/TwoSum.cc), [go](./problems/1/TwoSum.go), [java](./problems/1/TwoSum.java), [js](./problems/1/TwoSum.js), [scala](./problems/1/TwoSum.scala) | Easy |
 | [43](./problems/43) | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [go](./problems/43/MultiplyStrings.go) | Medium |
