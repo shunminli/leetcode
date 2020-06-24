@@ -13,6 +13,7 @@
 | -- | ----- | ---- | -------- | ---------- |
 | [1](./problems/1) | [Two Sum](https://leetcode.com/problems/two-sum/) | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [c++](./problems/1/TwoSum.cc), [go](./problems/1/TwoSum.go), [java](./problems/1/TwoSum.java), [js](./problems/1/TwoSum.js), [scala](./problems/1/TwoSum.scala) | Easy |
 | [14](./problems/14) | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/submissions/) | [java](./problems/14/LongestCommonPrefix.java) | Easy |
+| [23](./problems/23) | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [go](./problems/23/MergeKSortedLists.java) | Hard |
 | [43](./problems/43) | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [go](./problems/43/MultiplyStrings.go) | Medium |
 | [155](./problems/155) | [Min Stack](https://leetcode.com/problems/min-stack/) | [最小栈](https://leetcode-cn.com/problems/min-stack/) | [java](./problems/155/MinStack.java) | Easy |
 | [432](./problems/432) | [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/) | [java](./problems/432/AllOne.java) | Hard |
