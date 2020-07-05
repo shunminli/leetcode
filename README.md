@@ -28,4 +28,4 @@
 | [887](./problems/887) | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/) | [java](./problems/887/SuperEggDrop.java) | Hard |
 
 ## Other Problems
-| [search-rotate-array-lcci](./problems/search-rotate-array-lcci) | not available | [搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/) | [java](./problems/547/FriendCircles.java) | Medium |
+| [search-rotate-array-lcci](./problems/search-rotate-array-lcci) | not available | [搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/) | [java](./problems/search-rotate-array-lcci/SearchRotateArray.java) | Medium |
