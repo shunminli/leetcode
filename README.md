@@ -15,11 +15,17 @@
 | [14](./problems/14) | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/submissions/) | [java](./problems/14/LongestCommonPrefix.java) | Easy |
 | [23](./problems/23) | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [java](./problems/23/MergeKSortedLists.java) | Hard |
 | [43](./problems/43) | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [go](./problems/43/MultiplyStrings.go) | Medium |
+| [146](./problems/146) | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/) | [java](./problems/146/LRUCache.java) | Medium |
 | [155](./problems/155) | [Min Stack](https://leetcode.com/problems/min-stack/) | [最小栈](https://leetcode-cn.com/problems/min-stack/) | [java](./problems/155/MinStack.java) | Easy |
 | [432](./problems/432) | [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/) | [java](./problems/432/AllOne.java) | Hard |
+| [547](./problems/547) | [Friend Circles](https://leetcode.com/problems/friend-circles/) | [朋友圈](https://leetcode-cn.com/problems/friend-circles/) | [java](./problems/547/FriendCircles.java) | Medium |
+| [695](./problems/695) | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | [java](./problems/695/MaxAreaofIsland.java) | Medium |
 | [720](./problems/720) | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/) | [java](./problems/720/LongestWordInDictionary.java) | Easy |
 | [728](./problems/728) | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [自除数](https://leetcode-cn.com/problems/self-dividing-numbers/) | [go](./problems/728/SelfDividingNumbers.go) | Easy |
 | [729](./problems/729) | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | [我的日程安排表 I](https://leetcode-cn.com/problems/my-calendar-i/) | [java](./problems/729/MyCalendar.java), [js](./problems/729/MyCalendar.js) | Medium |
 | [730](./problems/730) | [Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/) | [统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences/) | [go](./problems/730/CountDifferentPalindromicSubsequences.go) | Hard |
 | [731](./problems/731) | [My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | [我的日程安排表 II](https://leetcode-cn.com/problems/my-calendar-ii/) | [java](./problems/731/MyCalendarTwo.java) | Medium |
 | [887](./problems/887) | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/) | [java](./problems/887/SuperEggDrop.java) | Hard |
+
+## Other Problems
+| [search-rotate-array-lcci](./problems/search-rotate-array-lcci) | not available | [搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/) | [java](./problems/547/FriendCircles.java) | Medium |
