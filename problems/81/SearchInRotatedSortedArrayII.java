@@ -1,5 +1,5 @@
 /**
- * @(#)SearchRotateArray.java, Jul 05, 2020.
+ * @(#)SearchInRotatedSortedArrayII.java, Jul 06, 2020.
  *
  * Copyright 2020 Lillard. All rights reserved. Use is subject to license terms.
  */
@@ -7,15 +7,15 @@
 /**
  * @author Lillard
  */
-public class SearchRotateArray {
+public class SearchInRotatedSortedArrayII {
 
   class Solution {
-    public int search(int[] nums, int target) {
+    public boolean search(int[] nums, int target) {
       if (nums == null || nums.length <= 0) {
-        return -1;
+        return false;
       }
 
-      return search(nums, target, 0, nums.length - 1);
+      return search(nums, target, 0, nums.length - 1) >= 0;
     }
 
     private int search(int[] nums, int target, int left, int right) {

@@ -1,5 +1,5 @@
 /**
- * @(#)SearchRotateArray.java, Jul 05, 2020.
+ * @(#)SearchInRotatedSortedArray.java, Jul 06, 2020.
  *
  * Copyright 2020 Lillard. All rights reserved. Use is subject to license terms.
  */
@@ -7,7 +7,7 @@
 /**
  * @author Lillard
  */
-public class SearchRotateArray {
+public class SearchInRotatedSortedArray {
 
   class Solution {
     public int search(int[] nums, int target) {
