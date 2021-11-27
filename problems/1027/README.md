@@ -1,4 +1,4 @@
-# [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/) [最长等差数列](https://leetcode.com/problems/longest-arithmetic-subsequence/)
+# [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/) [最长等差数列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence/)
 
 ## Solution
 * f\[i]\[j] means the maximum length of a sequence ending in i with a difference of j
