@@ -29,7 +29,8 @@
 | [730](./problems/730) | [Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/) | [统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences/) | [go](./problems/730/CountDifferentPalindromicSubsequences.go) | Hard |
 | [731](./problems/731) | [My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | [我的日程安排表 II](https://leetcode-cn.com/problems/my-calendar-ii/) | [java](./problems/731/MyCalendarTwo.java) | Medium |
 | [887](./problems/887) | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/) | [java](./problems/887/SuperEggDrop.java) | Hard |
-| [887](./problems/2080) | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | [区间内查询数字的频率](https://leetcode-cn.com/problems/range-frequency-queries/) | [java](./problems/2080/RangeFrequencyQueries.java) | Medium |
+| [1027](./problems/1027) | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/) | [最长等差数列](https://leetcode.com/problems/longest-arithmetic-subsequence/) | [java](./problems/1027/LongestArithmeticSubsequence.java) | Medium |
+| [2080](./problems/2080) | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | [区间内查询数字的频率](https://leetcode-cn.com/problems/range-frequency-queries/) | [java](./problems/2080/RangeFrequencyQueries.java) | Medium |
 
 ## Other Problems
 
