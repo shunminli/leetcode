@@ -30,6 +30,7 @@
 | [731](./problems/731) | [My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | [我的日程安排表 II](https://leetcode-cn.com/problems/my-calendar-ii/) | [java](./problems/731/MyCalendarTwo.java) | Medium |
 | [887](./problems/887) | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/) | [java](./problems/887/SuperEggDrop.java) | Hard |
 | [1027](./problems/1027) | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/) | [最长等差数列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence/) | [java](./problems/1027/LongestArithmeticSubsequence.java) | Medium |
+| [1072](./problems/1072) | [Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/) | [按列翻转得到最大值等行数](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/) | [java](./problems/1072/FlipColumnsForMaximumNumberOfEqualRows.java) | Medium |
 | [2080](./problems/2080) | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | [区间内查询数字的频率](https://leetcode-cn.com/problems/range-frequency-queries/) | [java](./problems/2080/RangeFrequencyQueries.java) | Medium |
 
 ## Other Problems
