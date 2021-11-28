@@ -2,7 +2,7 @@
 
 ## Solution
 * Dfs the string and split by operation
-  * Similar to the subsequent traversal of a binary tree
+  * It's similar to the subsequent traversal of a binary tree
   * 1st: split by '+' and '-'
   * 2nd: split by '*' and '/'
   * 3rd: calculate the value of substring

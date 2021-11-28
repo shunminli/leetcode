@@ -13,7 +13,9 @@
 | solution | title | 题名 | answer | difficulty |
 | -- | ----- | ---- | -------- | ---------- |
 | [1](./problems/1) | [Two Sum](https://leetcode.com/problems/two-sum/) | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [c++](./problems/1/TwoSum.cc), [go](./problems/1/TwoSum.go), [java](./problems/1/TwoSum.java), [js](./problems/1/TwoSum.js), [scala](./problems/1/TwoSum.scala) | Easy |
+| [2](./problems/2) | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [java](./problems/2/AddTwoNumbers.java) | Medium |
 | [14](./problems/14) | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/submissions/) | [java](./problems/14/LongestCommonPrefix.java) | Easy |
+| [15](./problems/15) | [3Sum](https://leetcode.com/problems/3sum/) | [三数之和](https://leetcode-cn.com/problems/3sum/) | [java](./problems/15/3Sum.java) | Medium |
 | [23](./problems/23) | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [java](./problems/23/MergeKSortedLists.java) | Hard |
 | [33](./problems/33) | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [java](./problems/33/SearchInRotatedSortedArray.java) | Medium |
 | [43](./problems/43) | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [go](./problems/43/MultiplyStrings.go) | Medium |

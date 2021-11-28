@@ -2,4 +2,4 @@
 
 ## Solution
 * Dfs all nums which is no more than n
-  * Similar dfs a decimal tree
+  * It's similar to dfs a decimal tree
