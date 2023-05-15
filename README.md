@@ -52,4 +52,4 @@
 
 | solution | title | 题名 | answer | difficulty |
 | -- | ----- | ---- | -------- | ---------- |
-| [search-rotate-array-lcci](./problems/search-rotate-array-lcci) | [search-rotate-array-lcci](https://leetcode.com/problems/search-rotate-array-lcci/) | [搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/) | [java](./problems/search-rotate-array-lcci/SearchRotateArray.java) | Medium |
+| [search-rotate-array-lcci](./problems/search-rotate-array-lcci) | - | [搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci/) | [java](./problems/search-rotate-array-lcci/SearchRotateArray.java) | Medium |
